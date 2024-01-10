@@ -1,0 +1,9 @@
+*{
+    background-color: slateblue;
+    text-align: center;
+    color: white;
+}
+
+.no-bullets {
+    list-style-type: none;
+  }

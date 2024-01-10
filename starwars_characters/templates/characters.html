@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>StarWars</title>
+        <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}" />
+    </head>
+    <h2>Here are the People</h2>
+<ul class="no-bullets">
+    {% for item in starwars_data.results %}
+        <li>{{ item.name }}</li>
+    {% endfor %}
+</ul>
+</html>
+
